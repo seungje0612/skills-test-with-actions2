@@ -69,14 +69,4 @@ def test_get_nth_fibonacci_ten():
     # Assert
     assert result == 55
 
-def area_of_circle(radius):
-    """Calculate the area of a circle given its radius."""
-    if radius < 0:
-        raise ValueError("Radius cannot be negative")
-    return math.pi * radius ** 2
 
-def get_nth_fibonacci(n):
-    """Calculate the nth Fibonacci number."""
-    if n < 0:
-        raise ValueError("n cannot be negative")
-    ...
